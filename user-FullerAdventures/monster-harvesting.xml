@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Monster Harvesting</name>
+		<update version="1.0.0">
+			<file name="monster-harvesting.xml" url="https://raw.githubusercontent.com/anjifuller/aurora-5e/master/user-FullerAdventures/monster-harvesting.xml" />
+		</update>
+	</info>
+	<element name="Draconis Fundamentum, Young Dragon" type="Item" source="Fuller Adventures" id="ID_DRACONIS_FUNDAMENTUM">
+		<description>
+			<p>The draconis fundamentum is a gland possessed only by true dragons. Attached to the heart, it is the center of elemental activity inside the dragon's body. All blood flowing from the heart passes through this organ before going to the body. The draconis fundamentum charges the lungs with power for a dragon's breath weapon and also plays a major role in the dragon's highly efficient metabolism, which converts the vast majority of whatever the creature consumes into usable energy.</p>			
+		</description>
+		<setters>
+			<set name="keywords">dragon, draconis, fundamentum</set>
+			<set name="category">Monster Harvesting</set>
+			<set name="cost" currency="gp">300</set>
+			<set name="weight" lb="6">6 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Draconis Fundamentum, Young Dragon" />
+	</element>
+	<element name="Dracon Heart, Young Dragon" type="Item" source="Fuller Adventures" id="ID_DRAGON_HEART_YOUNG">
+		<description>
+			<p>The heart of a young dragon.</p>			
+		</description>
+		<setters>
+			<set name="keywords">dragon, heart</set>
+			<set name="category">Monster Harvesting</set>
+			<set name="cost" currency="gp">500</set>
+			<set name="weight" lb="15">15 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Dragon Heart, Young Dragon" />
+	</element>
+	<element name="Dracon Claw, Young Dragon" type="Item" source="Fuller Adventures" id="ID_DRAGON_CLAWS_YOUNG">
+		<description>
+			<p>The claw of a young dragon.</p>			
+		</description>
+		<setters>
+			<set name="keywords">dragon, claws</set>
+			<set name="category">Monster Harvesting</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb=".5">.5 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Dracon Claw, Young Dragon" />
+	</element>
+	<element name="Grick beak" type="Item" source="Fuller Adventures" id="ID_GRICK_BEAK">
+		<description>		
+		</description>
+		<setters>
+			<set name="keywords">grick</set>
+			<set name="category">Monster Harvesting</set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Grick Beak" />
+	</element>
+	<element name="Mounted Nothic Head" type="Item" source="Fuller Adventures" id="ID_NOTHIC_HEAD">
+		<description>		
+		</description>
+		<setters>
+			<set name="keywords">nothic</set>
+			<set name="category">Monster Harvesting</set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Mounted Nothic Head" />
+	</element>
+	<element name="Mounted Green Dragon Head" type="Item" source="Fuller Adventures" id="ID_DRAGON_HEAD_GREEN">
+		<description>		
+		</description>
+		<setters>
+			<set name="keywords">dragon,head</set>
+			<set name="category">Monster Harvesting</set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Mounted Green Dragon Head" />
+	</element>
+	<element name="Dragon Fang" type="Item" source="Fuller Adventures" id="ID_DRAGON_FANG">
+		<description>		
+			<p>Any dragon has four fangs that can be used to make <b>javelins</b>, these javelins are unbreakable.</p>
+		</description>
+		<setters>
+			<set name="keywords">DRAGON,FANG</set>
+			<set name="category">Monster Harvesting</set>
+			<set name="cost" currency="gp">200</set>
+			<set name="weight" lb="2"></set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Dragon Fang" />
+	</element>
+	<element name="Waving Crest of a Dragon, Young Green" type="Item" source="Fuller Adventures" id="ID_GREEN_DRAGON_CREST">
+		<description>		
+		</description>
+		<setters>
+			<set name="keywords">DRAGON,FANG</set>
+			<set name="category">Monster Harvesting</set>
+			<set name="cost" currency="gp">50</set>
+			<set name="weight" lb="1/2"></set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Waving Crest of a Dragon, Young Green" />
+	</element>
+</elements>
