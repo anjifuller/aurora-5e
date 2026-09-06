@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Poison</name>
+		<update version="1.0.0">
+			<file name="poison.xml" url="https://raw.githubusercontent.com/anjifuller/aurora-5e/master/user-FullerAdventures/poison.xml" />
+		</update>
+	</info>
+	<element name="Spider Venom" type="Item" source="Fuller Adventures" id="ID_SPIDER_VENOM">
+		<description>
+			<p>A creature subjected to this poison must succeed on a DC 11 Constitution saving throw, taking 2d8 acid damage on a failed save, or half as much damage on a successful one.</p>
+			<div element="ID_INTERNAL_SUPPORT_POISON_INJURY" />
+		</description>
+		<setters>
+			<set name="keywords">poison,ingest</set>
+			<set name="category">Poison</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0.5">1/2 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Spider Venom" />
+	</element>
+	<element name="Ankheg Acid" type="Item" source="Fuller Adventures" id="ID_ANKHEG_ACID">
+		<description>
+			<p>A creature subjected to this poison must succeed on a DC 13 Dexterity saving throw, taking 3d6 acid damage on a failed save, or half as much damage on a successful one.</p>
+			<div element="ID_INTERNAL_SUPPORT_POISON_INJURY" />
+		</description>
+		<setters>
+			<set name="keywords">poison,inhale</set>
+			<set name="category">Poison</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0.5">1/2 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Ankheg Acid" />
+	</element>	
+	<element name="Pot of Acidic Slime" type="Item" source="Fuller Adventures" id="ID_ACIDIC_SLIME">
+		<description>
+			<p>This corrosive slime will eat through just about anything. You can throw the pot up to 20 feet, shattering it on impact. Make a ranged attack. On a hit, the target takes 2d6 acid damage</p>			
+			<div element="ID_INTERNAL_SUPPORT_POISON_INJURY" />
+		</description>
+		<setters>
+			<set name="keywords">Slime</set>
+			<set name="category">Poison</set>
+			<set name="cost" currency="gp"></set>
+			<set name="weight" lb="1/2"></set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Pot of Acidic Slime" />
+	</element>
+</elements>

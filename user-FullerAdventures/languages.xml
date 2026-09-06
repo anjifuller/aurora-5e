@@ -6,17 +6,26 @@
 			<file name="languages.xml" url="https://raw.githubusercontent.com/anjifuller/aurora-5e/master/user-FullerAdventures/languages.xml" />
 		</update>
 	</info>
-	
-	<element name="Skunk" type="Language" source="Fuller Adventures" id="ID_LANGUAGE_SKUNK">
+	<element name="Squirrel" type="Language" source="Fuller Adventures" id="ID_LANGUAGE_SQUIRREL">
 		<supports>Standard</supports>
 		<description>
-			<p>Typically spoken by skunks.</p>
+			<p>Typically spoken by squirrels.</p>
 		</description>
 		<setters>
 			<set name="standard">true</set>
-			<set name="speakers">Skunks</set>
+			<set name="speakers">Squirrels</set>
 			<set name="script">none</set>
 		</setters>
 	</element>	
-	
+	<element name="Common Sign Language" type="Language" source="Player’s Handbook" id="ID_LANGUAGE_CSL">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by the deaf community.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Deaf</set>
+			<set name="script">Common</set>
+		</setters>
+	</element>	
 </elements>

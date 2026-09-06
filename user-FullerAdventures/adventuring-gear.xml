@@ -6,8 +6,158 @@
 			<file name="adventuring-gear.xml" url="https://raw.githubusercontent.com/anjifuller/aurora-5e/master/user-FullerAdventures/adventuring-gear.xml" />
 		</update>
 	</info>
-	
-	<element name="Alligator" type="Magic Item" source="Angie's Table" id="ID_ALLIGATOR">
+	<element name="Warm Clothes" type="Item" source="Fuller Adventures" id="ID_WARM_CLOTHES">
+		<description>
+			<p>A set of warm clothes</p>
+		</description>
+		<setters>
+			<set name="keywords">clothes</set>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">10</set>
+			<set name="weight" lb="6">6 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Warm Clothes" />
+	</element>
+	<element name="Acorn Pochette" type="Item" source="Fuller Adventures" id="ID_ACORN_POCHETTE">
+		<description>
+			<p>Slender shoulder pouch made from one very large acorn</p>
+		</description>
+		<setters>
+			<set name="keywords">pouch,acorn</set>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">3</set>
+			<set name="weight" lb="6">1/2 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Acorn Pochette" />
+	</element>
+	<element name="Quill" type="Item" source="Fuller Adventures" id="ID_QUILL">
+		<description>
+			<p>A quill</p>
+		</description>
+		<setters>
+			<set name="keywords">quill</set>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="cp">5</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Warm Clothes" />
+	</element>
+	<element name="Shillelagh Oil" type="Item" source="Fuller Adventures" id="ID_SHILLELAGH_OIL">
+		<description>
+			<p>When rubbed on a club or quarterstaff, the weapon becomes imbued with the Shillelah spell for 1 minute.</p>			
+		</description>
+		<setters>
+			<set name="keywords">oil</set>
+			<set name="category">Wondrous Items</set>
+			<set name="cost" currency="gp"></set>
+			<set name="weight" lb=".5"></set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Shillelagh Oil" />
+	</element>
+	<element name="Bone mug" type="Item" source="Fuller Adventures" id="ID_BONE_MUG">
+		<description>	
+		</description>
+		<setters>
+			<set name="keywords">bone,mug</set>
+			<set name="category">Adventuring Gear</set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Bone mug" />
+	</element>
+	<element name="Amulet of Abbathor" type="Item" source="Fuller Adventures" id="ID_AMULET_ABBATHOR">
+		<description>	
+			<p>Inscribed upon this amulet are the words, "Greed is good" in Dwarven runes.</p>
+		</description>
+		<setters>
+			<set name="keywords">abbathor,amulet,greed</set>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Amulet of Abbathor" />
+	</element>
+	<element name="Goblin Book" type="Item" source="Fuller Adventures" id="ID_GOBLIN_BOOK">
+		<description>	
+		</description>
+		<setters>
+			<set name="keywords">goblin</set>
+			<set name="category">Adventuring Gear</set>
+			<set name="cost" currency="gp">5</set>
+			<set name="stackable">true</set>
+		</setters>
+		<sheet alt="Goblin Book" />
+	</element>
+	<element name="Chaos Flintlock" type="Magic Item" source="Fuller Adventures" id="ID_CHAOS_FLINTLOCK">
+		<description>
+			<p>The Chaos Flintlock is a volatile masterpiece of dwarven ingenuity and divine mischief. A handmade firearm powered by unstable runes, holy light, and whatever spare parts Anvil had on hand, each pull of the trigger invites fate itself to meddle, unleashing anything from radiant blasts to glitter explosions, and occasionally, catastrophic brilliance. It’s less a weapon and more a gamble with the gods of invention.</p>
+			<p>This contraption has 7 charges. While holding it, you can use an action to expend 1 of its charges and choose a target within 120 feet of you. The target can be a creature, an object, or a point in space. Roll d100 and consult the following table to discover what happens.</p>
+			<p class="indent">If the effect causes you to cast a spell from the flintlock, the spell's save DC is 15. If the spell normally has a range expressed in feet, its range becomes 120 feet if it isn't already.</p>
+			<p class="indent">If an effect covers an area, you must center the spell on and include the target. If an effect has multiple possible subjects, the GM randomly determines which ones are affected.</p>
+			<p class="indent">The flintlock regains 1d6 + 1 expended charges daily at dawn. If you expend the contraption's last charge, roll a d20. On a 1, the flintlock explodes into metal shards and is destroyed.</p>
+		</description>
+		<setters>
+			<set name="category">Wands</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">onehand</set>
+			<set name="type">Wand</set>
+			<set name="attunement" addition="by Anvil Hammersmith">true</set>
+			<set name="rarity">Rare</set>
+		</setters>
+	</element>
+	<element name="Hollow Rune" type="Magic Item" source="Fuller Adventures" id="ID_HOLLOW_RUNE">
+		<description>
+			<p>Once per day, you can use your reaction to cast the rune. The rune glows metallic and you become incorporeal, any damage passing right through you. It is deeply unsettling, like a void is sucking you in and does not want to let you go. You take no damage from the attack but you DO take 2 psychic damage each time you use the rune.</p>
+		</description>
+		<setters>
+			<set name="category">Supernatural Gifts</set>
+			<set name="type">Blessing</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="slot">gift</set>
+		</setters>
+	</element>
+	<element name="Blessed Golden Dragon Scale" type="Magic Item" source="Fuller Adventures" id="ID_BLESSED_GOLDEN_DRAGON_SCALE">
+		<description>
+			<p>Once per long rest your divine smite does max damage at first level (2d8 = 16) and the target has disadvantage against you on his next turn.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+	<element name="Flour Pouch" type="Magic Item" source="Fuller Adventures" id="ID_FLOUR_POUCH">
+		<description>
+			<p>Once per day, on a bonus action, you can throw this small pouch of flour at a target. The pouch explodes on contact, sending flour particles airborne in a 10 foot sphere. The particles fill the air until the end of your next turn. If fire comes in contact with the sphere, it creates an explosion. Creatures in the radius take 4d6 fire damage ½ as much on DC 13 Dex save.</p>
+			<p>The bag reappears with your gear at dawn every day.</p>
+		</description>
+		<setters>
+			<set name="category">Explosives</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="stackable">false</set>
+		</setters>
+	</element>
+	<element name="Auntie's Knee Pads" type="Magic Item" source="Fuller Adventures" id="ID_AUNTIES_KNEE_PADS">
+		<description>
+			<p>The knee pads reduce fall damage by 1d6</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+	<element name="Exploding Wind-Up Mouse" type="Magic Item" source="Fuller Adventures" id="ID_EXPLODING_WIND-UP_MOUSE">
 		<description>
 			<p>Once per day, using an Action, the mechanical mouse can be wound up and either set down or tossed up to 10 feet. The mouse then scampers up to 30 feet in a direction of your choosing, then detonates.</p>
 			<p>Creatures in a 10-foot radius make a DC13 Dexterity save. On a failure they take 3d8 force damage, on success, they take half damage.</p>
@@ -22,5 +172,40 @@
 			<set name="rarity">Very Rare</set>
 		</setters>
 	</element>
-	
+	<element name="Glasses of Lightning Comprehension" type="Magic Item" source="Fuller Adventures" id="ID_GLASSES_COMPREHENSION">
+		<description>
+			<p>While wearing these glasses, you can read and comprehend written information in a language you understand ten times as fast.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb=".25">.25 lb.</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+	<element name="Mockingbird Gum" type="Magic Item" source="Fuller Adventures" id="ID_MOCKINGBIRD_GUM">
+		<description>
+			<p>These green and blue speckled minty sticks of chewing gum are typically found in packs containing 1d10 sticks. As an action, you can eat one stick of gum and gain the ability to imitate another creature’s voice for 1 hour. A creature that hears you can tell that the voice is an imitation by making a DC 20 Wisdom (Insight) check.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb="0">0 lb.</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>
+		<element name="Diadem of Fabulous Truthiness" type="Magic Item" source="Fuller Adventures" id="ID_DIADEM_OF_TRUTHINESS">
+		<description>
+			<p>You can use an action to target one creature within 15 feet. The creature must make a DC 15 Charisma saving throw. On a failed save, the creature can’t speak a deliberate lie for 10 minutes. An affected creature is aware of the effect and can thus avoid answering questions to which it would normally respond with a lie. Such a creature can be evasive in its answers as long as the effect lasts. This property cannot be used again until the next dawn.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb=".5">.5 lb.</set>
+			<set name="rarity">Uncommon</set>
+		</setters>
+	</element>	
 </elements>

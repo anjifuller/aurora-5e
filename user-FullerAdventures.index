@@ -7,7 +7,10 @@
 		</update>
 	</info>
 	<files>
-		<file name="languages.xml" url="https://raw.githubusercontent.com/anjifuller/aurora-5e/master/user-FullerAdventures/languages.xml" />
 		<file name="adventuring-gear.xml" url="https://raw.githubusercontent.com/anjifuller/aurora-5e/master/user-FullerAdventures/adventuring-gear.xml" />
+		<file name="languages.xml" url="https://raw.githubusercontent.com/anjifuller/aurora-5e/master/user-FullerAdventures/languages.xml" />
+		<file name="monster-harvesting.xml" url="https://raw.githubusercontent.com/anjifuller/aurora-5e/master/user-FullerAdventures/monster-harvesting.xml" />
+		<file name="poison.xml" url="https://raw.githubusercontent.com/anjifuller/aurora-5e/master/user-FullerAdventures/poison.xml" />
+		<file name="race-goliath-variant.xml" url="https://raw.githubusercontent.com/anjifuller/aurora-5e/master/user-FullerAdventures/race-goliath-variant.xml" />
 	</files>
 </index>
