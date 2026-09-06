@@ -2,7 +2,7 @@
 <elements>
 	<info>
 		<name>Adventuring Gear</name>
-		<update version="1.0.0">
+		<update version="1.0.1">
 			<file name="adventuring-gear.xml" url="https://raw.githubusercontent.com/anjifuller/aurora-5e/master/user-FullerAdventures/adventuring-gear.xml" />
 		</update>
 	</info>
