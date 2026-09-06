@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Adventuring Gear</name>
+		<update version="1.0.0">
+			<file name="adventuring-gear.xml" url="https://raw.githubusercontent.com/anjifuller/aurora-5e/master/user-FullerAdventures/adventuring-gear.xml" />
+		</update>
+	</info>
+	
+	<element name="Alligator" type="Magic Item" source="Angie's Table" id="ID_ALLIGATOR">
+		<description>
+			<p>Once per day, using an Action, the mechanical mouse can be wound up and either set down or tossed up to 10 feet. The mouse then scampers up to 30 feet in a direction of your choosing, then detonates.</p>
+			<p>Creatures in a 10-foot radius make a DC13 Dexterity save. On a failure they take 3d8 force damage, on success, they take half damage.</p>
+			<p>The shrapnel: Any creature that fails the save is also struck by tiny fragments of tin — at the start of their next turn, they take 1d4 bleeding damage.</p>
+			<p>The reassembly: On your next turn, the mouse's scattered pieces yank themselves out of every creature still carrying shrapnel and clatter back together at your feet.</p>
+		</description>
+		<setters>
+			<set name="category">Wondrous Items</set>
+			<set name="type">Wondrous Item</set>
+			<set name="cost" currency="gp">0</set>
+			<set name="weight" lb=".25">.25 lb.</set>
+			<set name="rarity">Very Rare</set>
+		</setters>
+	</element>
+	
+</elements>
