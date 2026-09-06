@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Languages</name>
+		<update version="1.0.0">
+			<file name="languages.xml" url="https://raw.githubusercontent.com/anjifuller/aurora-5e/master/user-FullerAdventures/languages.xml" />
+		</update>
+	</info>
+	
+	<element name="Skunk" type="Language" source="Fuller Adventures" id="ID_LANGUAGE_SKUNK">
+		<supports>Standard</supports>
+		<description>
+			<p>Typically spoken by skunks.</p>
+		</description>
+		<setters>
+			<set name="standard">true</set>
+			<set name="speakers">Skunks</set>
+			<set name="script">none</set>
+		</setters>
+	</element>	
+	
+</elements>
